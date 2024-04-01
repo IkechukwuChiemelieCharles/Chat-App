@@ -8,7 +8,7 @@ body {
 }
 .container-fluid {
   background-color: rgb(255, 255, 255);
-  width: 450px;
+  width: 400px;
   height: 1000px;
   display: flex;
 }
@@ -297,7 +297,7 @@ h3 {
   .purple-bg {
     width: 650px;
     height: 1100px;
-    background: linear-gradient(hsl(133, 100%, 51%), hwb(264 22% 0%));
+    background: linear-gradient(hsl(293, 100%, 63%), hwb(264 22% 0%));
     border-radius: 250px;
     margin-top: -300px;
     margin-left: -550px;
@@ -418,7 +418,7 @@ h3 {
   .purple-bg {
     width: 550px;
     height: 1100px;
-    background: linear-gradient(hsl(61, 96%, 52%), hsl(264, 100%, 61%));
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-radius: 250px;
     margin-top: -300px;
     margin-left: -550px;
@@ -449,7 +449,7 @@ h3 {
   .purple-bg {
     width: 500px;
     height: 1100px;
-    background: linear-gradient(hsl(203, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-radius: 250px;
     margin-top: -300px;
     margin-left: -550px;
