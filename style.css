@@ -8,7 +8,7 @@ body {
 }
 .container-fluid {
   background-color: rgb(255, 255, 255);
-  width: 700px;
+  width: 450px;
   height: 1000px;
   display: flex;
 }
@@ -18,7 +18,7 @@ body {
   background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   border-radius: 150px;
   margin-top: -100px;
-  margin-left: -100px;
+  margin-left: -150px;
 }
 .phone-container {
   width: 300px;
@@ -297,10 +297,10 @@ h3 {
   .purple-bg {
     width: 650px;
     height: 1100px;
-    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(hsl(133, 100%, 51%), hwb(264 22% 0%));
     border-radius: 250px;
     margin-top: -300px;
-    margin-left: -450px;
+    margin-left: -550px;
   }
 
   .phone-container {
@@ -418,7 +418,7 @@ h3 {
   .purple-bg {
     width: 550px;
     height: 1100px;
-    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(hsl(61, 96%, 52%), hsl(264, 100%, 61%));
     border-radius: 250px;
     margin-top: -300px;
     margin-left: -550px;
@@ -442,14 +442,14 @@ h3 {
   .align {
     position: absolute;
     top: 590px;
-    left: 550px;
+    left: 650px;
   }
 }
 @media screen and (min-width: 1280px) {
   .purple-bg {
     width: 500px;
     height: 1100px;
-    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(hsl(203, 100%, 63%), hsl(264, 100%, 61%));
     border-radius: 250px;
     margin-top: -300px;
     margin-left: -550px;
@@ -472,6 +472,6 @@ h3 {
   .align {
     position: absolute;
     top: 590px;
-    left: 550px;
+    left: 600px;
   }
 }
