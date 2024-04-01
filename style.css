@@ -8,8 +8,8 @@ body {
 }
 .container-fluid {
   background-color: rgb(255, 255, 255);
-  width: 490px;
-  height: 600px;
+  width: 700px;
+  height: 1000px;
   display: flex;
 }
 .purple-bg {
@@ -230,27 +230,245 @@ i {
   margin-left: 15px;
   padding: 6px 10px;
   color: hsl(270, 7%, 64%);
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .chat-box i {
   font-size: 30px;
   color: black;
-  margin-left: 80px;
+  margin-left: 120px;
+  margin-top: 10px;
 }
+
 h3 {
   margin-top: 140px;
   margin-left: 70px;
+}
+.align {
+  margin-top: -400px;
 }
 .last-text {
   margin: 20px 70px;
   color: hsl(270, 7%, 64%);
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
   .purple-bg {
-    width: 300px;
-    height: 600px;
+    width: 650px;
+    height: 1100px;
     background: linear-gradient(hsl(0, 100%, 49%), hsl(264, 100%, 61%));
-    border-radius: 150px;
-    margin-top: -100px;
-    margin-left: -100px;
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -400px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .align {
+    margin-top: -300px;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  /* .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 450px;
+  } */
+}
+@media screen and (min-width: 780px) {
+  .purple-bg {
+    width: 650px;
+    height: 1100px;
+    background: linear-gradient(hsl(128, 80%, 44%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -450px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 500px;
+  }
+}
+@media screen and (min-width: 880px) {
+  .purple-bg {
+    width: 650px;
+    height: 1100px;
+    background: linear-gradient(hsl(210, 67%, 53%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -550px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 550px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .purple-bg {
+    width: 600px;
+    height: 1100px;
+    background: linear-gradient(hsl(177, 100%, 50%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -550px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 550px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .purple-bg {
+    width: 550px;
+    height: 1100px;
+    background: linear-gradient(hsl(306, 100%, 50%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -550px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 550px;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .purple-bg {
+    width: 550px;
+    height: 1100px;
+    background: linear-gradient(hsl(241, 100%, 47%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -550px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -80px;
+    margin-top: 150px;
+
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 550px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .purple-bg {
+    width: 500px;
+    height: 1100px;
+    background: linear-gradient(hsl(55, 100%, 49%), hsl(264, 100%, 61%));
+    border-radius: 250px;
+    margin-top: -300px;
+    margin-left: -550px;
+  }
+
+  .phone-container {
+    width: 300px;
+    height: 650px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 40px;
+    margin-left: -50px;
+    margin-top: 150px;
+    border: 10px rgb(255, 255, 255) solid;
+    box-shadow: 0 5px 40px black;
+  }
+  .last-text {
+    margin: 20px 70px;
+    color: hsl(270, 7%, 64%);
+  }
+  .align {
+    position: absolute;
+    top: 590px;
+    left: 550px;
   }
 }
